@@ -1,0 +1,14 @@
+{
+  "name": "sudoku-web-app",
+  "version": "1.0.0",
+  "description": "A responsive Sudoku web application with custom generator and validator",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
