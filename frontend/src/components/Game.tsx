@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { SudokuGrid, Difficulty } from '../../../shared/sudoku';
 import Modal from './Modal';
 
-const API_BASE_URL = 'http://localhost:5001';  // Updated port
+const API_BASE_URL = 'https://sudoku-10ty.onrender.com';  // Updated to deployed backend URL
 const MAX_MISTAKES = 3;
 
 const Game: React.FC = () => {
